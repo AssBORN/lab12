@@ -1,0 +1,74 @@
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*~
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- .NET ---
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.msi
+*.nupkg
+packages/
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+*.egg
+.venv
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Secrets ---
+*.key
+*.pem
+*.pfx
+*.cer
+credentials.json
+*.cred
+secrets.*
+
+# --- Build ---
+dist/
+build/
+out/
+target/
+*.wasm
+
+# --- Tests ---
+.pytest_cache/
+.coverage
+coverage/
+*.trx
+*.coverage
